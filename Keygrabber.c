@@ -9,7 +9,7 @@ int main() {
     Window window;
     XEvent event;
 
-//    while(1) {
+    while(1) {
         display = XOpenDisplay(NULL);
         if (display == NULL) {
             fprintf(stderr, "cannot open display \n");
@@ -63,12 +63,10 @@ int main() {
 
                     XCloseDisplay(display);
                     printf("Escaped\n");
-                    sleep(10);
-                    printf("End of sleep\n");
                     break;
                 }
             }
         }
-//        sleep (60);
-//    }
+        sleep (60);
+    }
 }
