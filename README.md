@@ -15,7 +15,7 @@ Add a file named keygrabber.desktop in ~/.config/autostart/ with this content fo
 Encoding=UTF-8
 Version=1.0
 Name=Keygrabber
-Exec=/home/naasc/Documents/Keygrabber
+Exec=/<path>/Keygrabber
 Type=Application
 Terminal=false
 ```
