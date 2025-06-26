@@ -2,7 +2,7 @@
 
 [In Developement]
 
-This Keygrabber aims to block inputs from user's keyboard and mouse until a OTP is entered
+This Keygrabber aims to block inputs from user's keyboard and mouse until an OTP is entered.
 
 Compile with:
 ```console
